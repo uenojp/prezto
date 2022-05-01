@@ -11,3 +11,13 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+# Source my aliases
+if [[ -e "$HOME/.zsh_aliases" ]]; then
+  source "$HOME/.zsh_aliases"
+fi
+
+setopt no_beep
+
+# Set LS_COLORS
+eval $(dircolors | sed 's/ow=..;../ow=01;35/')
+

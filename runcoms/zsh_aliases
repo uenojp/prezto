@@ -1,0 +1,4 @@
+alias v='vim'
+alias c='code'
+alias gs='git status' # Overwrite 'git stash' to 'git status'
+

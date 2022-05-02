@@ -1,5 +1,8 @@
 alias v='vim'
+alias vz="vim $HOME/.zshrc"
+alias vv="vim $HOME/.vimrc"
 alias c='code'
-alias gs='git status' # Overwrite 'git stash' to 'git status'
+# Overwrite 'git stash' to 'git status'
+alias gs='git status'
 alias clip='xclip -selection clipboard'
 

@@ -20,4 +20,6 @@ setopt no_beep
 
 # Set LS_COLORS
 eval $(dircolors | sed 's/ow=..;../ow=01;35/')
+# Use LS_COLORS in completion
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 

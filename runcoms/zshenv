@@ -9,3 +9,15 @@
 if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
+
+# Editor
+export EDITOR='vim'
+export VISUAL='vim'
+
+# Remove duplicates
+typeset -gU PATH path
+path=($HOME/bin(N-/) $path)
+
+# Set Format for time command
+TIMEFMT='  real %*E  user %*U  kernel %*S  %J'
+

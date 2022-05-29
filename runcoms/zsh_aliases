@@ -1,6 +1,6 @@
 alias v='vim'
 alias vz="vim $HOME/.zshrc"
-alias vv="vim $HOME/.vimrc"
+alias vv="vim $HOME/.vim/vimrc"
 alias c='code'
 # Overwrite 'git stash' to 'git status'
 alias gs='git status'

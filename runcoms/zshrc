@@ -23,3 +23,7 @@ eval $(dircolors | sed 's/ow=..;../ow=01;35/')
 # Use LS_COLORS in completion
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+

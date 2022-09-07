@@ -26,3 +26,5 @@ path=(
 # Set Format for time command
 TIMEFMT='  real %*E  user %*U  kernel %*S  %J'
 
+. "$HOME/.cargo/env"
+

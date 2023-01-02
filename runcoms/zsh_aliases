@@ -4,6 +4,7 @@ alias vv="vim $HOME/.vim/vimrc"
 alias gs='git status'
 alias gsu='git status -u'
 alias gd='git diff'
+alias gw='git switch'
 alias clip='xclip -selection clipboard'
 alias explorer='/mnt/c/Windows/explorer.exe'
 

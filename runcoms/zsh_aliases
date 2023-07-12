@@ -8,3 +8,6 @@ alias gw='git switch'
 alias clip='xclip -selection clipboard'
 alias explorer='/mnt/c/Windows/explorer.exe'
 
+# ~/bin/o instead.
+unalias o
+

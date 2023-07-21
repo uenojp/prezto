@@ -3,6 +3,7 @@ alias vv="vim $HOME/.vim/vimrc"
 # Overwrite 'git stash' to 'git status'
 alias gs='git status'
 alias gsu='git status -u'
+alias gsu.='git status -u .'
 alias gd='git diff'
 alias gw='git switch'
 alias clip='xclip -selection clipboard'
